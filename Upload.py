@@ -1,5 +1,3 @@
-
-
 # mainly copied from https://cherrypy.readthedocs.org/en/3.2.6/progguide/files/uploading.html
 import mimetypes
 import os
@@ -49,8 +47,10 @@ class FileUpload(object):
 
 conf = {'/css':
     {
+        # define tools.staticdir.root 
         'tools.staticdir.on': True,
-        'tools.staticdir.dir': '/Users/DMS/PycharmProjects/untitled/css'
+        # better: tools.staticdir.root + 'css'
+        'tools.staticdir.dir': # DONT FORGET TO CHANGE DIRECTORY
     }
 }
 
