@@ -20,9 +20,9 @@ class FileUpload(object):
                 <link rel="stylesheet" href="css/stylesheet.css">
 	            <body>
 	                <p id="output">
-		                myFile Size: %s kb<br />
-		                myFile filename: %s<br />
-		                myFile mime-type: %s
+		                Size: %s kb<br />
+		                filename: %s<br />
+		                mime-type: %s
                     </p>
                 </body>
                 </html>"""
