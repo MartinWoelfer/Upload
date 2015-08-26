@@ -1,0 +1,44 @@
+#header{
+	color: blue;
+	font-family: "Verdana";
+	font-size: 30px;
+}
+
+
+#file_container{
+	position: absolute;
+	left: 10px;
+	top: 72px;
+	opacity: 0;
+}
+
+#file{
+	padding-top: 70px;
+	font-family: "Vollkorn", "Arial", sans-serif;
+	font-size: 24pt;
+}
+	
+
+#file_container2{
+    width: 500px;
+	height: 70px;
+	border: 2px dashed blue;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+    text-align: center;
+    font: 20pt bold 'Vollkorn';
+    color: #bbb;
+}
+
+#output{
+	text-shadow: 1px 1px #888888;
+	font-size: 30px;
+}
+#submitButton{
+	text-align: center;
+	font: 15pt bold;
+}

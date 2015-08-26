@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>
+			Upload
+		</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+	</head>
+	<body>
+		<p id="header">Upload a file! </p> 
+		<script type="text/javascript">
+		
+			// Check for the various File API support.
+			if (window.File && window.FileReader && window.FileList && window.Blob) {
+			// Great success! All the File APIs are supported.
+			} else {
+				alert('The File APIs are not fully supported in this browser.');
+			}
+		</script>
+		<form action="upload" method="post" enctype="multipart/form-data">
+			<!-- This is the Div that you actually see, its put
+			infront of the other Div with the input file in it, which
+			opacity = 0
+			
+			So the user thinks he's clicking on this div here, though he is clicking on the 
+			button -->
+			<div id="file_container2">
+				Click here to Upload!
+				<!-- The opacity of this div is 0, so you cant see the button, but you can click it -->
+				<div id="file_container">
+					<input id="file" type="file" name="myFile" value="kekek"/><br />
+				</div>
+			</div>
+			</br> </br> </br>
+			<input id="submitButton"type="submit"/>
+		</form>
+	</body>
+</html>
